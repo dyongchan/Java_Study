@@ -10,15 +10,14 @@ public class java02_연산자 {
         System.out.print("정수를 입력하세요:");
         Scanner scanner = new Scanner(System.in);
 
-        String time = scanner.next();
-        int a = Integer.valueOf(time);
+        int time = scanner.nextInt();
 
-        int b = a / 3600;
-        int c = a % 3600;
-        int d = c / 60;
-        int e = c % 60;
+        int a = time / 3600;
+        int b = time % 3600;
+        int c = b / 60;
+        int d = b % 60;
 
         System.out.print(time);
-        System.out.println("초는 "+b+"시간, "+d+"분, "+e+"초입니다.");
+        System.out.println("초는 "+a+"시간, "+c+"분, "+d+"초입니다.");
     }
 }
