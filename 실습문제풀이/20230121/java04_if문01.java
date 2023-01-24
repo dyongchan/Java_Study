@@ -25,6 +25,7 @@ public class java04_if문01 {
         else {
             System.out.print("삼각형이 되지 못합니다.");
         }
+
     }
 
 }

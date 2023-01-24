@@ -14,25 +14,17 @@ public class java05_if문02 {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
-        if (a < b && b < c) {
-            System.out.print("중간 값은 "+b);
-        }
-        else if (c < b && b < a){
-            System.out.print("중간 값은 "+b);
-        }
-        else if (b < a && a < c ){
-            System.out.print("중간 값은 "+a);
-        }
-        else if (c < a && a < b ){
-            System.out.print("중간 값은 "+a);
-        }
-        else if (a < c && c < b ){
-            System.out.print("중간 값은 "+c);
-        }
-        else if (b < c && c < a ){
-            System.out.print("중간 값은 "+c);
+        int middle = 0;
+
+        if ((a < b && b < c) || (c < b && b < a)) {
+            middle = b;
+        } else if ((c < a && a < b) || (b < a && a < c)) {
+            middle = a;
+        } else if ((a < c && c < b) || (b < c && c < a)) {
+            middle = c;
         }
 
+        System.out.print("중간 값은 : "+middle);
     }
-
 }
+// 코드의 중복된 부분 제거 및 단순화
