@@ -36,6 +36,6 @@ public class java13_문자열 {
 // 문자열에 인덱스를 통해 문자를 추출한다. : 문자열.charAt()
 // String str = "Mozi Tistory Is Best"
 // 문자열의 길이 : str.length()
-// 몇개의 단어로 이루어졌나?
+// 몇개의 단어로 이루어졌나? = charAt() 메소드를 통해 띄어쓰기 + 1 을 하면 단어의 개수 출력 가능
 // str = str.toLowerCase(); 소문자로변경
 // str = str.toUpperCase(); 대문자로변경
