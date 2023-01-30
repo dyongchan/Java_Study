@@ -1,5 +1,7 @@
 package java_outline;
 
+// 입력받은 정수를 뒤집어서 배열로 출력
+
 import java.util.Arrays;
 import java.util.Scanner;
 
