@@ -5,6 +5,8 @@ package java_outline;
 import java.util.Scanner;
 import java.util.Arrays;
 
+// 입력받은 수 만큼의 간격으로 다른 입력받은 수의 곱들을 표현
+
 public class java14_간격이있는숫자 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
